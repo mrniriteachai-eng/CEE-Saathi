@@ -1,0 +1,23 @@
+﻿subject,unit,topic,learning_goal,suggested_difficulty,suggested_revision_minutes,verification_note
+Physics,Mechanics,Kinematics,"Motion, displacement, velocity and acceleration",Medium,45,Illustrative starter topic; verify against the current official syllabus
+Physics,Mechanics,Newton's Laws of Motion,"Force, inertia and applications of Newton's laws",Medium,40,Illustrative starter topic; verify against the current official syllabus
+Physics,Work and Energy,"Work, Power and Energy",Work-energy theorem and conservation of energy,Medium,40,Illustrative starter topic; verify against the current official syllabus
+Physics,Heat,Thermodynamics,"Heat, temperature and thermodynamic processes",Hard,50,Illustrative starter topic; verify against the current official syllabus
+Physics,Electricity,Current Electricity,"Current, resistance, circuits and Ohm's law",Medium,45,Illustrative starter topic; verify against the current official syllabus
+Physics,Waves,Wave Motion,"Wave properties, sound and superposition",Medium,35,Illustrative starter topic; verify against the current official syllabus
+Chemistry,Physical Chemistry,Atomic Structure,"Atomic models, quantum numbers and electronic configuration",Medium,40,Illustrative starter topic; verify against the current official syllabus
+Chemistry,Chemical Bonding,Chemical Bonding,"Ionic, covalent and molecular bonding concepts",Medium,45,Illustrative starter topic; verify against the current official syllabus
+Chemistry,Equilibrium,Chemical Equilibrium,Equilibrium constants and Le Chatelier's principle,Hard,45,Illustrative starter topic; verify against the current official syllabus
+Chemistry,Organic Chemistry,Hydrocarbons,"Alkanes, alkenes, alkynes and basic reactions",Medium,40,Illustrative starter topic; verify against the current official syllabus
+Chemistry,Solutions,Solutions and Concentration,"Molarity, dilution and solution calculations",Medium,35,Illustrative starter topic; verify against the current official syllabus
+Chemistry,Electrochemistry,Electrochemistry,"Redox reactions, cells and electrode potential",Hard,40,Illustrative starter topic; verify against the current official syllabus
+Biology,Cell Biology,Cell Structure,Cell organelles and their functions,Easy,35,Illustrative starter topic; verify against the current official syllabus
+Biology,Genetics,Mendelian Genetics,Inheritance patterns and Mendel's laws,Medium,45,Illustrative starter topic; verify against the current official syllabus
+Biology,Human Physiology,Circulatory System,"Heart, blood and circulation",Medium,45,Illustrative starter topic; verify against the current official syllabus
+Biology,Human Physiology,Nervous System,"Neurons, central and peripheral nervous systems",Hard,45,Illustrative starter topic; verify against the current official syllabus
+Biology,Ecology,Ecosystems,"Energy flow, food chains and ecological relationships",Easy,30,Illustrative starter topic; verify against the current official syllabus
+Biology,Evolution,Evolution and Natural Selection,"Variation, adaptation and natural selection",Medium,35,Illustrative starter topic; verify against the current official syllabus
+Mathematics,Algebra,Quadratic Equations,"Roots, discriminant and quadratic formula",Medium,30,Illustrative starter topic; verify against the current official syllabus
+Mathematics,Calculus,Differentiation,Derivatives and basic applications,Hard,40,Illustrative starter topic; verify against the current official syllabus
+Mathematics,Probability,Probability Basics,"Events, outcomes and elementary probability",Medium,30,Illustrative starter topic; verify against the current official syllabus
+Mathematics,Trigonometry,Trigonometric Identities,Basic identities and equation solving,Medium,30,Illustrative starter topic; verify against the current official syllabus

@@ -1,0 +1,4 @@
+student_id,log_date,subject,hours_studied,topics_covered,data_label
+DEMO-S00007,2026-10-16,physics,5.5,demo entry,DEMO DATA
+DEMO-S00007,2026-10-17,physics,6.0,demo entry,DEMO DATA
+DEMO-S00007,2026-10-18,physics,4.0,demo entry,DEMO DATA

@@ -1,0 +1,194 @@
+{
+  "project": "CEE SAATHI AI - Medical Entrance Intelligence & Prediction Platform",
+  "generated_at": "2026-10-16T17:42:27",
+  "disclaimers": [
+    "All records are synthetic DEMO DATA.",
+    "Marking scheme is configurable and NOT official.",
+    "Threshold scenarios, model probabilities and official results are different things; only the first two appear here.",
+    "Models trained on synthetic labels are not validated predictors of real CEE outcomes.",
+    "Rank/percentile and seat numbers are hypothetical scenario values."
+  ],
+  "config": {
+    "seed": 42,
+    "n_students": 1200,
+    "subjects": {
+      "physics": 50.0,
+      "chemistry": 50.0,
+      "biology": 100.0,
+      "other_subject": 50.0
+    },
+    "pass_threshold_pct": 50.0
+  },
+  "dependencies": [
+    {
+      "package": "numpy",
+      "required": true,
+      "installed": true,
+      "version": "2.4.4"
+    },
+    {
+      "package": "pandas",
+      "required": true,
+      "installed": true,
+      "version": "3.0.2"
+    },
+    {
+      "package": "matplotlib",
+      "required": true,
+      "installed": true,
+      "version": "3.10.9"
+    },
+    {
+      "package": "scikit-learn",
+      "required": true,
+      "installed": true,
+      "version": "1.8.0"
+    },
+    {
+      "package": "scipy",
+      "required": false,
+      "installed": true,
+      "version": "1.17.1"
+    },
+    {
+      "package": "plotly",
+      "required": false,
+      "installed": false,
+      "version": "-"
+    },
+    {
+      "package": "openai",
+      "required": false,
+      "installed": false,
+      "version": "-"
+    }
+  ],
+  "plotly_available": false,
+  "data_quality": {
+    "raw_rows": 1224,
+    "raw_duplicates": 24,
+    "raw_out_of_range": {
+      "physics_score": 12,
+      "study_hours_per_day": 6
+    },
+    "cleaning_report_raw": {
+      "rows_in": 1224,
+      "exact_duplicate_rows_removed": 24,
+      "duplicate_attempt_ids_removed": 0,
+      "rows_without_student_id_removed": 0,
+      "invalid_values_set_to_nan": {
+        "physics_score": 12,
+        "study_hours_per_day": 6
+      },
+      "iqr_outliers_flagged_not_removed": {
+        "study_hours_per_day": 7,
+        "attendance_percentage": 0,
+        "topic_completion_percentage": 13,
+        "latest_mock_score": 9
+      },
+      "missing_values_after_cleaning": 549,
+      "rows_out": 1200
+    },
+    "clean_rows": 1200
+  },
+  "threshold_scenario": {
+    "scenario_type": "THRESHOLD SCENARIO (not an official result)",
+    "threshold_pct": 50.0,
+    "n_scored": 1200,
+    "n_at_or_above": 590,
+    "n_below": 610,
+    "pct_at_or_above": 49.166666666666664,
+    "pct_below": 50.833333333333336
+  },
+  "model": {
+    "trained": true,
+    "reason": "ok",
+    "best_model": "Random Forest",
+    "features": [
+      "study_hours_per_day",
+      "preparation_days",
+      "mock_tests_attempted",
+      "attendance_percentage",
+      "topic_completion_percentage",
+      "revision_count",
+      "previous_mock_average",
+      "score_trend",
+      "confidence_level",
+      "physics_score",
+      "chemistry_score",
+      "biology_score",
+      "other_subject_score",
+      "min_subject_pct",
+      "subject_pct_std",
+      "study_intensity_hours",
+      "mocks_per_month",
+      "improvement_vs_previous"
+    ],
+    "leakage_warnings": [],
+    "metrics": [
+      {
+        "model": "Dummy (prior baseline)",
+        "cv_f1_mean": 0.6994,
+        "cv_f1_std": 0.0019,
+        "cv_auc_mean": 0.5,
+        "test_accuracy": 0.5367,
+        "test_precision": 0.5367,
+        "test_recall": 1.0,
+        "test_f1": 0.6985,
+        "test_roc_auc": 0.5,
+        "test_brier": 0.2487
+      },
+      {
+        "model": "Logistic Regression",
+        "cv_f1_mean": 0.826,
+        "cv_f1_std": 0.0166,
+        "cv_auc_mean": 0.9033,
+        "test_accuracy": 0.8267,
+        "test_precision": 0.8187,
+        "test_recall": 0.8696,
+        "test_f1": 0.8434,
+        "test_roc_auc": 0.9038,
+        "test_brier": 0.1237
+      },
+      {
+        "model": "Random Forest",
+        "cv_f1_mean": 0.8385,
+        "cv_f1_std": 0.0223,
+        "cv_auc_mean": 0.9042,
+        "test_accuracy": 0.8133,
+        "test_precision": 0.8,
+        "test_recall": 0.8696,
+        "test_f1": 0.8333,
+        "test_roc_auc": 0.8945,
+        "test_brier": 0.1303
+      }
+    ],
+    "validated_for_real_use": false,
+    "labels_are_synthetic": true
+  },
+  "figures": [
+    "cee_saathi_output\\figures\\01_kpi_cards.png",
+    "cee_saathi_output\\figures\\02_pass_fail_scenario.png",
+    "cee_saathi_output\\figures\\03_score_distribution.png",
+    "cee_saathi_output\\figures\\04_subject_averages.png",
+    "cee_saathi_output\\figures\\05_correlation_heatmap.png",
+    "cee_saathi_output\\figures\\06_mock_trend.png",
+    "cee_saathi_output\\figures\\07_study_hours_vs_score.png",
+    "cee_saathi_output\\figures\\08_performance_bands.png",
+    "cee_saathi_output\\figures\\09_model_comparison.png",
+    "cee_saathi_output\\figures\\10_confusion_matrix.png",
+    "cee_saathi_output\\figures\\11_feature_importance.png",
+    "cee_saathi_output\\figures\\12_student_radar.png",
+    "cee_saathi_output\\figures\\13_preparation_progress.png",
+    "cee_saathi_output\\figures\\14_rank_percentile.png",
+    "cee_saathi_output\\figures\\15_seat_scenario.png"
+  ],
+  "interactive_figures": [],
+  "tests": {
+    "tests_run": 37,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 37
+  }
+}

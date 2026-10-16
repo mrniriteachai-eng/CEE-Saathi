@@ -1,0 +1,15 @@
+{
+  "project": "CEE Saathi AI",
+  "version": "1.0",
+  "generated_on": "2026-10-16",
+  "data_mode": "SYNTHETIC DEMO DATA",
+  "number_of_demo_students": 1500,
+  "hypothetical_threshold": 50,
+  "pass_scenario_count": 33,
+  "fail_scenario_count": 1467,
+  "pass_scenario_percentage": 2.2,
+  "average_score": 23.13,
+  "highest_score": 66.57,
+  "best_demo_model": "Logistic Regression",
+  "important_warning": "Synthetic demonstration only. Not validated for real CEE prediction, official rank, seat allocation or admission outcomes."
+}

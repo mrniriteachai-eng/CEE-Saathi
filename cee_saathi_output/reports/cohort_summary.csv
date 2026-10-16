@@ -1,0 +1,18 @@
+metric,value
+n_students,1200
+data_label,DEMO DATA
+max_total_marks_demo,250.0
+threshold_pct_demo,50.0
+scenario_pct_at_or_above,49.166666666666664
+mean_total_pct,49.4084
+median_total_pct,49.8
+std_total_pct,12.520881964847685
+mean_study_hours,4.4732
+mean_topic_completion_pct,62.66766666666666
+mean_attendance_pct,77.84841666666667
+share_improving_trend_pct,61.083333333333336
+simulated_label_demo_pass_pct,53.75
+mean_physics_pct,41.287333333333336
+mean_chemistry_pct,48.259
+mean_biology_pct,53.88483333333333
+mean_other_subject_pct,49.726

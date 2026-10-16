@@ -1,0 +1,4 @@
+student_id,attempt_date,mock_test_name,physics_score,chemistry_score,biology_score,other_subject_score,total_score,questions_attempted,questions_correct,accuracy_pct,data_label
+DEMO-S00007,2026-10-02,Demo mock 1,16.8,26.7,59.2,19.9,122.6,180,100,55.56,DEMO DATA
+DEMO-S00007,2026-10-09,Demo mock 2,18.3,28.2,62.2,21.4,130.1,180,108,60.0,DEMO DATA
+DEMO-S00007,2026-10-16,Demo mock 3,19.8,29.7,65.2,22.9,137.6,180,116,64.44,DEMO DATA
